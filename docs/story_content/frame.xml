@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00001000111" textdirection="rtl" textengine="DirectWrite" device="true" fontscale="110" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001000111" font="Open Sans" controllayout="npnxnanbsnfns00001000111" colorscheme="npxnabnsnfns00001000111" string_table="npxnabnsnfns00001000111" />
+    <layout name="pxabnsnfns00001000111" font="Open Sans" controllayout="pxabnsnfns00001000111" colorscheme="npxnabnsnfns00001000111" string_table="npxnabnsnfns00001000111" />
+    <layout name="npxnabnsnfns00001000111" font="Open Sans" controllayout="npxnabnsnfns00001000111" colorscheme="npxnabnsnfns00001000111" string_table="npxnabnsnfns00001000111" />
+    <layout name="npnxnanbnsnfns00001000111" font="Open Sans" controllayout="npnxnanbnsnfns00001000111" colorscheme="npxnabnsnfns00001000111" string_table="npxnabnsnfns00001000111" />
+    <layout name="pxabnsnfns00001000110" font="Open Sans" controllayout="pxabnsnfns00001000110" colorscheme="npxnabnsnfns00001000111" string_table="npxnabnsnfns00001000111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="البودكاست" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="right" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="true">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnabnsnfns00001000111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F5669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x636979" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5E6578" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525666" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x377CB6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343744" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272A36" alpha="100" stop="0" />
+                <color rgb="0x474C57" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x323542" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x434758" alpha="100" stop="0" />
+                <color rgb="0x232531" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6076" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585D6E" alpha="100" stop="0" />
+                <color rgb="0x494D5A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474C5E" alpha="100" stop="0" />
+                <color rgb="0x3A3E4D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x444859" alpha="100" stop="0" />
+                <color rgb="0x4B5062" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x42454C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D4150" alpha="100" stop="0" />
+                <color rgb="0x2B2E36" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D5365" alpha="100" stop="0" />
+                <color rgb="0x4D5365" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x535767" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494E62" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B5062" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x424656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnabnsnfns00001000111">
+      <string id="three_image_progress_audio">التقدم</string>
+      <string id="three_image_audio">صوت</string>
+      <string id="three_image_camera_down">تحركت الكاميرا للأسفل</string>
+      <string id="three_image_camera_left">تحركت الكاميرا لليسار</string>
+      <string id="three_image_camera_right">تحركت الكاميرا لليمين</string>
+      <string id="three_image_camera_up">تحركت الكاميرا للأعلى</string>
+      <string id="three_image_interaction_free">وضع الاستكشاف المجاني</string>
+      <string id="three_image_interaction_guided">وضع الجولة المصحوبة بإرشادات</string>
+      <string id="three_image_hotspot">نقطة ساخنة</string>
+      <string id="three_image_instructions">استخدم المفاتيح w و a و s و d للتنقل حول الصورة بزاوية 360 درجة. اضغط على مفتاح علامة التبويب للانتقال إلى علامات تفاعلية ونقاط ساخنة. </string>
+      <string id="three_image_interaction">تفاعل صورة 360 درجة</string>
+      <string id="three_image_label">تسمية</string>
+      <string id="three_image_marker">علامة</string>
+      <string id="three_image_items">بنود</string>
+      <string id="three_image_interaction_next">التالي</string>
+      <string id="three_image_pause_audio">إيقاف الصوت مؤقتًا</string>
+      <string id="three_image_pause_video">إيقاف الفيديو مؤقتًا</string>
+      <string id="three_image_play_audio">تشغيل الصوت</string>
+      <string id="three_image_play_video">تشغيل الفيديو</string>
+      <string id="three_image_interaction_prev">السابق</string>
+      <string id="three_image_visited">زار</string>
+      <string id="three_image_of">من</string>
+      <string id="three_image_count_of_total">%count% من %total%</string>
+      <string id="acc_three_image_step_count_of_total">خطوة %count% من%total%</string>
+      <string id="three_image_item">بند</string>
+      <string id="three_image_interaction_step">خطوة</string>
+      <string id="three_image_tooltip">تلميح الأداة</string>
+      <string id="three_image_total_items">%total% عناصر</string>
+      <string id="three_image_total_item">%total% عنصر</string>
+      <string id="three_image_progress_video">التقدم</string>
+      <string id="three_image_video">فيديو</string>
+      <string id="three_image_video_volume">حجم الفيديو</string>
+      <string id="acc_three_image_count_of_total_items_visited">تمت زيارة %count% عناصر من %total%</string>
+      <string id="acc_three_image_count_of_total_item_visited">تمت زيارة %count% عنصر من %total%</string>
+      <string id="three_image_count_of_total_visited">تمت زيارة %count% من^%^ %total%</string>
+      <string id="accessible_text">نص الكتروني يمكن الوصول إليه</string>
+      <string id="keyboardshortcuts_lower">اختصارات لوحة المفاتيح</string>
+      <string id="zoom_to_fit">تكبير ليصبح مناسب</string>
+      <string id="acc_active">نشط</string>
+      <string id="alt_key">تبديل</string>
+      <string id="check_include">التحديد للتضمين</string>
+      <string id="clear">المسح والعودة إلى القائمة</string>
+      <string id="close">إغلاق</string>
+      <string id="acc_closed_captions">تعليقات توضيحية مغلقة. اضغط على مفتاح المسافة للتبديل بين تشغيل التعليقات التوضيحية وإيقافها.</string>
+      <string id="closed_captions_tip">تبديل التسميات التوضيحية</string>
+      <string id="continue">متابعة</string>
+      <string id="continueresponsive">متابعة</string>
+      <string id="ctrl_key">سيطرة</string>
+      <string id="enable_keyboardshortcuts">تفعيل اختصارات لوحة المفاتيح</string>
+      <string id="enter_key">أدخل</string>
+      <string id="exit">خروج</string>
+      <string id="filter">عامل تصفية</string>
+      <string id="finish">إنهاء</string>
+      <string id="acc_finish">إنهاء</string>
+      <string id="definition">التعريف</string>
+      <string id="acc_definition">التعريف</string>
+      <string id="glossary">المصطلحات</string>
+      <string id="terms">الشروط</string>
+      <string id="progress_hour">ساعة</string>
+      <string id="progress_hours">ساعات</string>
+      <string id="action">إجراء</string>
+      <string id="keyboardshortcuts">اختصارات لوحة المفاتيح</string>
+      <string id="shortcuthelp">إدراج قائمة باختصارات لوحة المفاتيح</string>
+      <string id="mute_shortcut">كتم الصوت / إلغاء كتم الصوت</string>
+      <string id="next_shortcut">الشريحة التالية</string>
+      <string id="playpause_shortcut">تشغيل / إيقاف مؤقت</string>
+      <string id="previous_shortcut">الشريحة السابقة</string>
+      <string id="replay_shortcut">إعادة تشغيل الشريحة</string>
+      <string id="shortcut">اختصار</string>
+      <string id="submit_shortcut">إرسال الشريحة</string>
+      <string id="acctext_shortcut">تبديل النص الإلكتروني الذي يمكن الوصول إليه</string>
+      <string id="closedcaptions_shortcut">تبديل الترجمة والشرح</string>
+      <string id="togglezoom">قم بتبديل التكبير/التصغير لملاءمة الصورة</string>
+      <string id="outline">القائمة</string>
+      <string id="disabled_orientation">الرجاء قم بتدوير جهازك</string>
+      <string id="progress_minute">دقيقة</string>
+      <string id="progress_minutes">دقائق</string>
+      <string id="mute_tip">كتم الصوت</string>
+      <string id="next">التالي</string>
+      <string id="acc_next">التالي</string>
+      <string id="next_slide_tip">الشريحة التالية</string>
+      <string id="transcript_chk">ملاحظات</string>
+      <string id="transcript">ملاحظات</string>
+      <string id="bio">سيرة ذاتية</string>
+      <string id="more_info">مزيد من المعلومات</string>
+      <string id="closed_captions">تعليقات توضيحية</string>
+      <string id="acc_pause">إيقاف مؤقت</string>
+      <string id="pause_tip">ايقاف مؤقت</string>
+      <string id="acc_play">تشغيل</string>
+      <string id="play_tip">تشغيل</string>
+      <string id="send_an_email">إرسال بريد إلكتروني</string>
+      <string id="prev">السابق</string>
+      <string id="acc_previous">السابق</string>
+      <string id="previous_slide_tip">الشريحة السابقة</string>
+      <string id="question_list">قائمة الأسئلة</string>
+      <string id="replay_tip">إعادة التشغيل</string>
+      <string id="acc_replay">إعادة تشغيل</string>
+      <string id="resources">الموارد</string>
+      <string id="acc_resources">الموارد</string>
+      <string id="restart">إعادة تشغيل</string>
+      <string id="resume">استئناف</string>
+      <string id="acc_locked">مقفل</string>
+      <string id="acc_search_input">بحث</string>
+      <string id="search_toggle">بحث</string>
+      <string id="sidebar_toggle">زر إظهار/إخفاء الشريط الجانبي</string>
+      <string id="acc_slide_progress">تقدم الشرائح</string>
+      <string id="desktop_start">بدء الدورة التدريبية</string>
+      <string id="mobile_start">بدء الدورة التدريبية</string>
+      <string id="acc_visited">زار</string>
+      <string id="search">جارٍ البحث...</string>
+      <string id="search_in">البحث في:</string>
+      <string id="search_results">نتائج البحث</string>
+      <string id="progress_second">ثانية</string>
+      <string id="progress_seconds">ثواني</string>
+      <string id="settings_tip">إعدادات</string>
+      <string id="shift_key">تحويل</string>
+      <string id="acc_skipnavigation">العودة لأعلى</string>
+      <string id="slide_text_chk">نص منزلق</string>
+      <string id="spacebar_key">فراغ</string>
+      <string id="submitall">إرسال الكل</string>
+      <string id="acc_submitall">إرسال الكل</string>
+      <string id="submit">إرسال</string>
+      <string id="acc_submit">إرسال</string>
+      <string id="submit_tip">إرسال</string>
+      <string id="unmute_tip">إعادة الصوت</string>
+      <string id="acc_volume">مستوى الصوت</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5cbuoELxLtQ" displaytext="المقدمة" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5cbuoELxLtQ.6VLRm4hrqwY" displaytext="عنوان المشروع" expand="false" type="slide" />
+            <slidelink slideid="_player.5cbuoELxLtQ.5cBH3drjvdK" displaytext="بيانات الاعداد" expand="false" type="slide" />
+            <slidelink slideid="_player.5cbuoELxLtQ.6ZdU384tNGu" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.5cbuoELxLtQ.5hRfs6Ar09Q" displaytext="محتوي الموضوع" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5l2og2RXgAH" displaytext="التعريف بالموضوع" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5l2og2RXgAH.6TJohawR5nR" displaytext="تعريف البودكاست" expand="false" type="slide" />
+            <slidelink slideid="_player.5l2og2RXgAH.68K4FH5DXl7" displaytext="تعريف البودكاست" expand="false" type="slide" />
+            <slidelink slideid="_player.5l2og2RXgAH.6ieoRYXyO2J" displaytext="أهمية البودكاست" expand="false" type="slide" />
+            <slidelink slideid="_player.5l2og2RXgAH.5WGN16NTfu4" displaytext="فوائد البودكاست للمستمعين" expand="false" type="slide" />
+            <slidelink slideid="_player.5l2og2RXgAH.6MuryobtbSF" displaytext="منصات البودكاست" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5bElqaaDXoD" displaytext="تشريح منصة البودكاست" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5bElqaaDXoD.6WgFOin4XQf" displaytext="التسجيل علي المنصة" expand="false" type="slide" />
+            <slidelink slideid="_player.5bElqaaDXoD.5dIUZSqqYPk" displaytext="الشاشة الأفتتاحية" expand="false" type="slide" />
+            <slidelink slideid="_player.5bElqaaDXoD.65Sgqxh3ppD" displaytext="تبويب Subscriptions" expand="false" type="slide" />
+            <slidelink slideid="_player.5bElqaaDXoD.6mUK420l33h" displaytext="تبويب Queue" expand="false" type="slide" />
+            <slidelink slideid="_player.5bElqaaDXoD.6Z9b47ap5x4" displaytext="Settings" expand="false" type="slide" />
+            <slidelink slideid="_player.5bElqaaDXoD.65clfcDx37q" displaytext="نهاية الموضوع" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5UvOW4XqcQn" displaytext="الأختبار" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5UvOW4XqcQn.6rUYVQzixyN" displaytext="تعليمات الأختبار" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5Ve8ONVO4tF" displaytext="تعليمات الأختبار" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.6qDyxeHhM6J" displaytext="السؤال الأول" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5fm4TA2MIk5" displaytext="السؤال الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5thsoza5YVn" displaytext="السؤال التالت" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.6V6ZLsnVBaF" displaytext="السؤال الرابع" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.6T6bmlrKSiR" displaytext="السؤال الخامس" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5ZIfUROQjLN" displaytext="السؤال السادس" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.6lW01TKQIrL" displaytext="السؤال السابع" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.6GVg3UXyPp3" displaytext="السؤال التامن" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5XNJ1ptNDdw" displaytext="السؤال التاسع" expand="false" type="slide" />
+            <slidelink slideid="_player.5UvOW4XqcQn.5WkfvsaJZGK" displaytext="السؤال العاشر" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5cbuoELxLtQ.6VLRm4hrqwY" slidebank="false" type="slide">البودكاست (podcast) </slidetext>
+      <slidetext slideid="5cbuoELxLtQ.5cBH3drjvdK" slidebank="false" type="slide">البودكاست (podcast) إعداد روان ياسر إبراهيم المستوي التالت قسم تكنولوجيا التعليم، شعبة الحاسب الآلي إشراف د/ زينب العجيزي د/ عائشة المهدي</slidetext>
+      <slidetext slideid="5cbuoELxLtQ.6ZdU384tNGu" slidebank="false" type="slide">البودكاست (podcast) الهدف العام أن ينشا الطالب محتوي صوتي علي منصة البودكاست يعرف فيه اقسام كلية التربية النوعية. الأهداف السلوكية في نهاية هذا الموضوع يصبح الطالب قادر علي أن: 1- يذكر مفهوم البودكاست. 2- يدرك اهمية البودكاست في العالم الحديث. 3- يناقش فوائد البودكاست للمُستمعين. 4- يشريح الواجهة الرئيسية لمنصة البودكاست. القائمة الرئيسة </slidetext>
+      <slidetext slideid="5cbuoELxLtQ.5hRfs6Ar09Q" slidebank="false" type="slide">البودكاست (podcast) تعريف البودكاست تعريف البودكاست تعريف البودكاست تعريف البودكاست تعريف البودكاست تعريف البودكاست أهمية البودكاست أهمية البودكاست أهمية البودكاست أهمية البودكاست أهمية البودكاست أهمية البودكاست فوائد البودكاست للمُستمعين فوائد البودكاست للمُستمعين فوائد البودكاست للمُستمعين فوائد البودكاست للمُستمعين فوائد البودكاست للمُستمعين فوائد البودكاست للمُستمعين منصات البودكاست  منصات البودكاست  منصات البودكاست  منصات البودكاست  منصات البودكاست  منصات البودكاست  تشريح منصات البودكاست  تشريح منصات البودكاست  تشريح منصات البودكاست  تشريح منصات البودكاست  تشريح منصات البودكاست  تشريح منصات البودكاست  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5l2og2RXgAH.6TJohawR5nR" slidebank="false" type="slide"> تعريف البودكاست البث الصوتي أو "البودكاست" هو وسيلة رقميّة تسمح للأفراد أو المؤسسات بإنشاء المحتوى الصوتي وتوزيعه ومشاركته عبر الإنترنت ليسمعه الناس من جميع أنحاء العالم.  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5l2og2RXgAH.68K4FH5DXl7" slidebank="false" type="slide"> تعريف البودكاست القائمة الرئيسة </slidetext>
+      <slidetext slideid="5l2og2RXgAH.6ieoRYXyO2J" slidebank="false" type="slide">أهمية البودكاست يعتبر البودكاست واحدًا من أهم وسائل الإعلام الحديثة التي تستهدف فئات واسعة من الجمهور. يمكن للبودكاست أن يوفر تجربة متعمقة ومصدرًا قيمًا للمعرفة والترفيه القائمة الرئيسة </slidetext>
+      <slidetext slideid="5l2og2RXgAH.5WGN16NTfu4" slidebank="false" type="slide">فوائد البودكاست للمُستمعين سهولة الوصول التعلم المستمر الترفيه ورواية القصص التنمية الشخصية والإلهام  وجهات نظر متنوعة ووسائل إعلام بديلة القائمة الرئيسة </slidetext>
+      <slidetext slideid="5l2og2RXgAH.6MuryobtbSF" slidebank="false" type="slide">منصات البودكاست  apple podcasts spotify google podcasts القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.6WgFOin4XQf" slidebank="false" type="slide">التسجيل علي منصة البودكاست للتسجيل علي منصة جوجل للبودكاست، يجب عليك امتلاك حساب جوجل. ثم تقوم بالدخول الي الرابط التالي  https://podcasts.google.com  وسجل الدخول بالميل الخاص بك. القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.5dIUZSqqYPk" slidebank="false" type="slide">الشاشة الأفتتاحية  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.65Sgqxh3ppD" slidebank="false" type="slide">تبويب subscriptions  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.6mUK420l33h" slidebank="false" type="slide">تبويب queue  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.6Z9b47ap5x4" slidebank="false" type="slide">settings  القائمة الرئيسة </slidetext>
+      <slidetext slideid="5bElqaaDXoD.65clfcDx37q" slidebank="false" type="slide">تهانيا، لقد قمت باتمام الموضوع بنجاح  والآن حان وقت الأختبار انتقل إلي الأختبار انتقل إلي الأختبار انتقل إلي الأختبار انتقل إلي الأختبار انتقل إلي الأختبار انتقل إلي الأختبار القائمة الرئيسة </slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6rUYVQzixyN" slidebank="false" type="slide">قواعد الأختبار 1- اقراء رأس السؤال جيدا قبل الإجابة عليه. 2- بعد اختبارك للإجابة قم بالضغط علي زر إرسال. 3-  الوقت المخصص للأختبار هو 30 دقيقة.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5Ve8ONVO4tF" slidebank="false" type="slide">من فضلك قم بادخال اسمك. ثم قم بالضغط علي زر ابدا.  ادخل اسمك اكتب النص هنا ابدا الأختبار ابدا الأختبار ابدا الأختبار ابدا الأختبار ابدا الأختبار ابدا الأختبار</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6qDyxeHhM6J" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  اختر الإجابة الصحيحة من فوائد البودكاست للمستمعين……………. التعلم المؤقت. التعلم المؤقت. التعلم المؤقت. التعلم المؤقت. التعلم المؤقت. التعلم المؤقت. الجدية في تقديم المحتوي. الجدية في تقديم المحتوي. الجدية في تقديم المحتوي. الجدية في تقديم المحتوي. الجدية في تقديم المحتوي. الجدية في تقديم المحتوي. توفير وسائل تثقيفية بديلة. توفير وسائل تثقيفية بديلة. توفير وسائل تثقيفية بديلة. توفير وسائل تثقيفية بديلة. توفير وسائل تثقيفية بديلة. توفير وسائل تثقيفية بديلة. الجمود في التعامل معه. الجمود في التعامل معه. الجمود في التعامل معه. الجمود في التعامل معه. الجمود في التعامل معه. الجمود في التعامل معه.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5fm4TA2MIk5" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  اختر الإجابة الصحيحة الشاشة الأفتتاحية لجوجل بودكاست يوجد بها ………….. حلقات البرامج. حلقات البرامج. حلقات البرامج. حلقات البرامج. حلقات البرامج. حلقات البرامج. اعدادات المنصة. اعدادات المنصة. اعدادات المنصة. اعدادات المنصة. اعدادات المنصة. اعدادات المنصة. خطوات ارشادية للتعامل مع المنصة. خطوات ارشادية للتعامل مع المنصة. خطوات ارشادية للتعامل مع المنصة. خطوات ارشادية للتعامل مع المنصة. خطوات ارشادية للتعامل مع المنصة. خطوات ارشادية للتعامل مع المنصة. برامجك المشترك فيها. برامجك المشترك فيها. برامجك المشترك فيها. برامجك المشترك فيها. برامجك المشترك فيها. برامجك المشترك فيها.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5thsoza5YVn" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  اختر الإجابة الصحيحة تبويب queue يسمح لك القيام ب………….. حفظ برامجك المفضلة. حفظ برامجك المفضلة. حفظ برامجك المفضلة. حفظ برامجك المفضلة. حفظ برامجك المفضلة. حفظ برامجك المفضلة. تجميع الحلقات لسمعاها في وقت لاحق. تجميع الحلقات لسمعاها في وقت لاحق. تجميع الحلقات لسمعاها في وقت لاحق. تجميع الحلقات لسمعاها في وقت لاحق. تجميع الحلقات لسمعاها في وقت لاحق. تجميع الحلقات لسمعاها في وقت لاحق. اضافة برنامجك الخاص الي المنصة. اضافة برنامجك الخاص الي المنصة. اضافة برنامجك الخاص الي المنصة. اضافة برنامجك الخاص الي المنصة. اضافة برنامجك الخاص الي المنصة. اضافة برنامجك الخاص الي المنصة. الحصول علي المساعدة. الحصول علي المساعدة. الحصول علي المساعدة. الحصول علي المساعدة. الحصول علي المساعدة. الحصول علي المساعدة.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6V6ZLsnVBaF" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  صح صح صح صح صح صح خطأ خطأ خطأ خطأ خطأ خطأ ضع علامة صح او خطا البودكاست عبارة عن بث مرئي يسمح للناس باضافة المحتوي عليه.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6T6bmlrKSiR" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  صح صح صح صح صح صح خطأ خطأ خطأ خطأ خطأ خطأ ضع علامة صح او خطا البودكاست يستهدف فئة معنية من الشباب.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5ZIfUROQjLN" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  صح صح صح صح صح صح خطأ خطأ خطأ خطأ خطأ خطأ ضع علامة صح او خطا تبويب subscriptions يوجد فيه اخر الحلقات التي قمت بالاستماع إليها.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6lW01TKQIrL" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  صح صح صح صح صح صح خطأ خطأ خطأ خطأ خطأ خطأ ضع علامة صح او خطا البودكاست يشبه البث التقليدي.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.6GVg3UXyPp3" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  صح صح صح صح صح صح خطأ خطأ خطأ خطأ خطأ خطأ ضع علامة صح او خطا يوجد القليل من منصات البودكاست في عالمنا اليوم.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5XNJ1ptNDdw" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة   قم بتحديد ايكونة queue.</slidetext>
+      <slidetext slideid="5UvOW4XqcQn.5WkfvsaJZGK" slidebank="false" type="slide">خطأ إجابة خاطئة. متابعة متابعة متابعة متابعة متابعة متابعة صحيح إجابة صحيحة. متابعة متابعة متابعة متابعة متابعة متابعة  قم بتوصيل كل خيار بما يناسبه explore تعليمات نشر محتوي علي منصة جوجل بودكاست subscriptions اتاحة برامج جديدة كما يتوافق معك. queue يوجد بها برامجك المشترك فيها. publisher guidlines اضافة حلقات من برامج مختلفة.</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
